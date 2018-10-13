@@ -119,10 +119,10 @@ public class perulangan {
    
    public static void tugas(){
        
-       float angka;
+       double angka;
        Scanner ang = new Scanner (System.in);
        System.out.print("Masukkan Angka = ");
-       angka = ang.nextFloat();
+       angka = ang.nextDouble();
        if (angka > 0) {
            System.out.println("Bilangan " + angka + " adalah bilangan positif");
        }else if (angka < 0){
