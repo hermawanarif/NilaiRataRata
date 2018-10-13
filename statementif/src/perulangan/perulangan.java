@@ -5,6 +5,8 @@
  */
 package perulangan;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lk09Nu26Uty
@@ -95,7 +97,7 @@ public class perulangan {
         }
    }
    
-      public static void infinityloop(){
+   public static void infinityloop(){
        for (;;) {
            System.out.println("qwerty");
        }
@@ -115,14 +117,27 @@ public class perulangan {
      //  }
    }
    
+   public static void tugas(){
+   
+       Scanner ang = new Scanner (System.in);
+       System.out.println("Masukkan Angka = ");
+       int no1 = ang.nextInt();
+       if (no1 >0) {
+           System.out.println("Bilangan positif");
+       }else if (no1<0){
+           System.out.println("Bilangan negatif");
+       }
+   }
+   
     public static void main(String[] args) {
         //statemnetIf();
         //statementSwitch();
-        statementBreak();
+        //statementBreak();
         //labeledBreakStatement();
         //labeledContinueStatement();
         //labeledStatementContinue();
         //infinityloop();
+        tugas();
     }
     
 }
