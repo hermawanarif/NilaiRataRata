@@ -45,7 +45,7 @@ public class InputPerhitungan {
         rata = (no1+no2+no3)/(double)3;
         String pesan = "Number 1 = \t" + no1 + "\nNumber 2 = \t" + no2 + 
                 "\nNumber 3 = \t" + no3 + "\nRata-rata = \t" + rata;
-        JOptionPane.showMessageDialog(null, pesan , "Hasil",JOptionPane.INFORMATION_MESSAGE,new ImageIcon ("src/inputperhitungan/background1.png"));
+        JOptionPane.showMessageDialog(null, pesan , "Hasil",JOptionPane.INFORMATION_MESSAGE);
         }catch(Exception e){
         
         JOptionPane.showMessageDialog(null, "Masukkan Angka !!!");
