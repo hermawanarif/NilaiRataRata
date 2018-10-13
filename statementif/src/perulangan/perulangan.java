@@ -123,8 +123,6 @@ public class perulangan {
         //labeledContinueStatement();
         //labeledStatementContinue();
         //infinityloop();
-        //Pemrograman Java
-        //Palkon
     }
     
 }
