@@ -118,14 +118,17 @@ public class perulangan {
    }
    
    public static void tugas(){
-   
+       
+       float angka;
        Scanner ang = new Scanner (System.in);
-       System.out.println("Masukkan Angka = ");
-       int no1 = ang.nextInt();
-       if (no1 >0) {
-           System.out.println("Bilangan positif");
-       }else if (no1<0){
-           System.out.println("Bilangan negatif");
+       System.out.print("Masukkan Angka = ");
+       angka = ang.nextFloat();
+       if (angka > 0) {
+           System.out.println("Bilangan " + angka + " adalah bilangan positif");
+       }else if (angka < 0){
+           System.out.println("Bilangan " + angka + " adalah bilangan negatif");
+       }else if(angka == 0){
+           System.out.println("Bilangan 0");
        }
    }
    
