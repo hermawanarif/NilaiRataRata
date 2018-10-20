@@ -1,0 +1,22 @@
+public static void latihanArray(){
+    Scanner q = new Scanner(System.in);
+    int batas;
+        System.out.print("Masukkan tinggi matriks = ");
+        batas = q.nextInt();
+        int matrix[][]= new int [batas][batas];
+        for (int i = 0; i < batas; i++) {
+            for (int j = 0; j < batas; j++) {
+                System.out.print("matriks["+i+"]["+j+"] = ");
+                matrix[i][j]=q.nextInt();     
+            }
+        }
+            for (int i = 0; i < batas; i++) {
+                for (int j = 0; j < batas; j++) {
+                    if (i<0) {
+                        matrix[i][j]=0;
+                    }
+                    System.out.print(matrix[i][j]+" ");
+                }
+                System.out.println();
+            } 
+        }
